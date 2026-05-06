@@ -12,7 +12,7 @@ https://portfolio-dun-sigma-82.vercel.app/
 
 ## 📌 Status
 
-🏁 Work Finished
+🏁 Work Completed
 
 ## 🎯 Goals
 - [✔️] Responsive design
