@@ -4,16 +4,20 @@ body{
     font-family: Geist Mono, monospace;
     body :not(.title){
         font-family: JetBrains Mono, monospace;
+        div { display: flex; }
+
+p { flex: auto; border: black 1px solid; margin: 2px; }
+
 }
 #title{
     color: #cba6f7;
     font-family: JetBrains Mono, monospace;
  }
+ #tech{
+    color: #89b4fa ;
+    font-family: JetBrains Nono, monospace;
+ }
 
-#tech{
-    color: #89b4fa;
-    font-family: JetBrains Mono, monospace;
-}
 #contact{
     color: #fab387;
     font-family: JetBrains Mono, monospace;
@@ -25,5 +29,69 @@ body{
 #Linktree{
     color: #a6e3a1;
     font-family: JetBrains Mono, monospace;
+}
+#Gmail{
+    color: #f38ba8;
+    font-family: JetBrains Mono, monospace;
+}
+.technology {
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #181825;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s;
+
+}
+
+.technology > h1,
+.HTML {
+  margin: 0.1rem;
+  padding: 0rem;
+  font-size: 1.2rem;
+   border-radius: 5%;
+}
+
+.HTML {
+  background: right/contain content-box border-box no-repeat
+    url("./assets/img/html.png");
+}
+
+.HTML > h2,
+.HTML > p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+.technology > h1
+.CSS {
+  margin: 0.1rem;
+  padding: 0rem;
+  font-size: 1.2rem;
+}
+
+.CSS {
+  background: right/contain content-box border-box no-repeat
+    url("./assets/img/css.png");
+}
+
+.CSS > h2,
+.CSS > p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+footer {
+  font-family: JetBrains Mono, monospace;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #181825;
+  color: #cdd6f4;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   transition: background-color 0.5s;
+}
+a:hover {
+    background-color: #fab387;
 }
 }
